@@ -5,7 +5,7 @@ const features = [
   {
     icon: MessageCircle,
     title: "Natürliche Gespräche",
-    description: "Livia hört zu, erinnert, lacht und motiviert. Wie ein guter Freund, der immer Zeit für dich hat.",
+    description: "Livia hört zu, erinnert, lacht und motiviert. Regelmäßige Gespräche trainieren das Gedächtnis und halten geistig fit.",
     gradient: "from-primary to-primary-light",
   },
   {
@@ -32,7 +32,7 @@ const Features = () => {
             Was <span className="text-primary">Livia</span> kann
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Drei Hauptfunktionen, die deinen Alltag bereichern
+            Drei Hauptfunktionen, die deinen Alltag bereichern – mit Livia zu sprechen ist Gedächtnistraining und beugt Alzheimer vor
           </p>
         </div>
 
