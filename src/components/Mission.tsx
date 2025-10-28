@@ -1,4 +1,4 @@
-import seniorIllustration from "@/assets/senior-illustration.jpg";
+import missionImage from "@/assets/mission-image.jpg";
 
 const Mission = () => {
   return (
@@ -10,7 +10,7 @@ const Mission = () => {
             <div className="relative">
               <div className="absolute -inset-4 gradient-primary opacity-20 blur-2xl rounded-full"></div>
               <img 
-                src={seniorIllustration} 
+                src={missionImage} 
                 alt="Seniorin mit Tablet"
                 className="relative rounded-3xl shadow-soft w-full h-auto"
               />
