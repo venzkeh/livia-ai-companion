@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { MessageCircleHeart, Mail, Phone, Facebook, Instagram, Linkedin } from "lucide-react";
+import liviaLogo from "@/assets/livia-logo.png";
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <MessageCircleHeart className="w-8 h-8 text-primary-light" />
+              <img src={liviaLogo} alt="Livia AI Logo" className="w-8 h-8" />
               <span className="text-2xl font-bold">Livia AI</span>
             </div>
             <p className="text-accent/80 leading-relaxed">
@@ -33,11 +33,11 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-4">Kontakt</h3>
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-accent/80">
-                <Mail className="w-4 h-4" />
+                <img src={liviaLogo} alt="Livia AI Logo" className="w-4 h-4" />
                 <span>info@livia-ai.de</span>
               </li>
               <li className="flex items-center gap-2 text-accent/80">
-                <Phone className="w-4 h-4" />
+                <img src={liviaLogo} alt="Livia AI Logo" className="w-4 h-4" />
                 <span>+49 123 456789</span>
               </li>
             </ul>
@@ -48,13 +48,13 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-4">Folge uns</h3>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-accent/10 hover:bg-accent/20 flex items-center justify-center transition-smooth">
-                <Facebook className="w-5 h-5" />
+                <img src={liviaLogo} alt="Livia AI Logo" className="w-5 h-5" />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-accent/10 hover:bg-accent/20 flex items-center justify-center transition-smooth">
-                <Instagram className="w-5 h-5" />
+                <img src={liviaLogo} alt="Livia AI Logo" className="w-5 h-5" />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-accent/10 hover:bg-accent/20 flex items-center justify-center transition-smooth">
-                <Linkedin className="w-5 h-5" />
+                <img src={liviaLogo} alt="Livia AI Logo" className="w-5 h-5" />
               </a>
             </div>
           </div>
