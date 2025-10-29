@@ -1,23 +1,27 @@
+import { MessageCircle, NotebookPen, SlidersHorizontal } from "lucide-react";
+
 import appMockup1 from "@/assets/app-mockup-1.jpg";
 import appMockup2 from "@/assets/app-mockup-2.jpg";
 import { Card } from "@/components/ui/card";
-import liviaLogo from "@/assets/livia-logo.png";
 
 const screens = [
   {
     image: appMockup1,
     title: "Sprechen",
     description: "Natürliche Gespräche, die sich echt anfühlen",
+    icon: MessageCircle,
   },
   {
     image: appMockup2,
     title: "Notizen",
     description: "Erinnerungen und Termine im Blick behalten",
+    icon: NotebookPen,
   },
   {
     image: appMockup1,
     title: "Einstellungen",
     description: "Individuell angepasst an deine Bedürfnisse",
+    icon: SlidersHorizontal,
   },
 ];
 
@@ -37,36 +41,40 @@ const AppShowcase = () => {
 
         {/* App Screenshots */}
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {screens.map((screen, index) => (
-            <Card 
-              key={index}
-              className="overflow-hidden bg-card border-2 border-border hover:border-primary transition-smooth hover:shadow-glow group animate-fade-in-up"
-              style={{ animationDelay: `${index * 0.15}s` }}
-            >
-              <div className="aspect-[9/16] relative overflow-hidden bg-gradient-to-br from-primary/5 to-secondary/5">
-                <img 
-                  src={screen.image} 
-                  alt={screen.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-smooth duration-500"
-                />
-              </div>
-              
-              <div className="p-6 space-y-3">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
-                    <img src={liviaLogo} alt="Livia AI Logo" className="w-6 h-6" />
-                  </div>
-                  <h3 className="text-xl font-bold text-foreground">
-                    {screen.title}
-                  </h3>
+          {screens.map((screen, index) => {
+            const Icon = screen.icon;
+
+            return (
+              <Card
+                key={index}
+                className="overflow-hidden bg-card border-2 border-border hover:border-primary transition-smooth hover:shadow-glow group animate-fade-in-up"
+                style={{ animationDelay: `${index * 0.15}s` }}
+              >
+                <div className="aspect-[9/16] relative overflow-hidden bg-gradient-to-br from-primary/5 to-secondary/5">
+                  <img
+                    src={screen.image}
+                    alt={screen.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-smooth duration-500"
+                  />
                 </div>
-                
-                <p className="text-muted-foreground">
-                  {screen.description}
-                </p>
-              </div>
-            </Card>
-          ))}
+
+                <div className="p-6 space-y-3">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
+                      <Icon className="w-6 h-6 text-white" />
+                    </div>
+                    <h3 className="text-xl font-bold text-foreground">
+                      {screen.title}
+                    </h3>
+                  </div>
+
+                  <p className="text-muted-foreground">
+                    {screen.description}
+                  </p>
+                </div>
+              </Card>
+            );
+          })}
         </div>
       </div>
     </section>
