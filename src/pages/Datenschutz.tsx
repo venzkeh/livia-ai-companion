@@ -1,9 +1,14 @@
+import { useEffect } from "react";
+import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-import liviaLogo from "@/assets/livia-logo.png";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const Datenschutz = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Header />
@@ -13,7 +18,7 @@ const Datenschutz = () => {
             to="/"
             className="inline-flex items-center gap-2 text-primary hover:text-primary/80 mb-8 transition-colors"
           >
-            <img src={liviaLogo} alt="Livia AI Logo" className="w-4 h-4" />
+            <ArrowLeft className="w-4 h-4" />
             Zurück zur Startseite
           </Link>
 
