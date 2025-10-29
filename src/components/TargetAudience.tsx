@@ -1,21 +1,18 @@
-import { Home, Building2, Users } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import liviaLogo from "@/assets/livia-logo.png";
 
 const audiences = [
   {
-    icon: Home,
     title: "Senioren zu Hause",
     quote: "Endlich habe ich jemanden zum Reden, wann immer ich möchte.",
     author: "Maria, 78 Jahre",
   },
   {
-    icon: Building2,
     title: "Pflegeheime",
     quote: "Livia unterstützt uns perfekt im Alltag und bereitet unseren Bewohnern Freude.",
     author: "Pflegeleitung Sonnenhof",
   },
   {
-    icon: Users,
     title: "Angehörige",
     quote: "Ich weiß, dass meine Mutter gut versorgt ist, auch wenn ich nicht da sein kann.",
     author: "Thomas, Sohn",
@@ -46,7 +43,7 @@ const TargetAudience = () => {
             >
               <div className="flex flex-col items-center text-center space-y-6">
                 <div className="w-20 h-20 rounded-full gradient-primary flex items-center justify-center group-hover:scale-110 transition-smooth shadow-soft">
-                  <audience.icon className="w-10 h-10 text-white" />
+                  <img src={liviaLogo} alt="Livia AI Logo" className="w-12 h-12" />
                 </div>
                 
                 <h3 className="text-2xl font-bold text-foreground">

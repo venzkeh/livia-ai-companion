@@ -60,10 +60,8 @@ const Header = () => {
       <div className="relative">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-4 lg:py-6">
-            <Link to="/" className="flex items-center gap-3" onClick={closeMenu}>
-              <span className="inline-flex items-center justify-center w-12 h-12 rounded-2xl gradient-primary shadow-soft">
-                <img src={liviaLogo} alt="Livia AI Logo" className="w-8 h-8" />
-              </span>
+            <Link to="/" className="flex items-center gap-4" onClick={closeMenu}>
+              <img src={liviaLogo} alt="Livia AI Logo" className="h-12 w-auto" />
               <div className="flex flex-col">
                 <span className="text-lg font-bold text-foreground">Livia AI</span>
                 <span className="text-sm text-muted-foreground">Digitale Begleitung</span>

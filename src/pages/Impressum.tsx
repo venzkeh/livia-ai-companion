@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
+import liviaLogo from "@/assets/livia-logo.png";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -13,7 +13,7 @@ const Impressum = () => {
             to="/"
             className="inline-flex items-center gap-2 text-primary hover:text-primary/80 mb-8 transition-colors"
           >
-            <ArrowLeft className="w-4 h-4" />
+            <img src={liviaLogo} alt="Livia AI Logo" className="w-4 h-4" />
             Zurück zur Startseite
           </Link>
 
