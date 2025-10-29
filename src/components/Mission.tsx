@@ -39,10 +39,6 @@ const Mission = () => {
             <div className="pt-4 flex flex-wrap gap-4">
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 rounded-full bg-primary"></div>
-                <span className="text-lg text-foreground">Wissenschaftlich fundiert</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-3 h-3 rounded-full bg-primary"></div>
                 <span className="text-lg text-foreground">Einfach zu bedienen</span>
               </div>
               <div className="flex items-center gap-2">
