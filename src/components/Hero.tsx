@@ -26,7 +26,7 @@ const Hero = () => {
               <span className="text-primary">Einsamkeit</span>
             </h1>
             
-            <p className="text-xl lg:text-2xl text-muted-foreground max-w-2xl">
+            <p className="text-xl lg:text-2xl text-muted-foreground max-w-2xl mx-auto lg:mx-0">
               Einfühlsame Gespräche, Erinnerungen und Unterstützung – für mehr Lebensfreude im Alter.
             </p>
             
