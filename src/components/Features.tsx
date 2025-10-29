@@ -1,21 +1,18 @@
-import { Heart, BookOpen, Smile } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import liviaLogo from "@/assets/livia-logo.png";
 
 const features = [
   {
-    icon: Heart,
     title: "Persönliche Begleitung",
     description: "Livia hört zu, erinnert und motiviert. Passt sich an Stimmung und Bedürfnisse an – natürliche Gespräche, die das Gedächtnis trainieren.",
     gradient: "from-primary to-primary-light",
   },
   {
-    icon: BookOpen,
     title: "Erinnerungen & Notizen",
     description: "Hilft, Termine und Gedanken festzuhalten. Nichts Wichtiges geht mehr verloren.",
     gradient: "from-primary-light to-secondary",
   },
   {
-    icon: Smile,
     title: "Seniorenfreundlichkeit",
     description: "Große Schrift, einfache Bedienung und klare Sprache. Entwickelt speziell für ältere Menschen – ohne komplizierte Technik.",
     gradient: "from-secondary to-primary",
@@ -44,8 +41,10 @@ const Features = () => {
               className="p-8 hover:shadow-glow transition-smooth bg-card border-2 border-border hover:border-primary group animate-fade-in-up"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
-              <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${feature.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-smooth shadow-soft`}>
-                <feature.icon className="w-8 h-8 text-white" />
+              <div
+                className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${feature.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-smooth shadow-soft`}
+              >
+                <img src={liviaLogo} alt="Livia AI Logo" className="w-10 h-10" />
               </div>
               
               <h3 className="text-2xl font-bold text-foreground mb-4">

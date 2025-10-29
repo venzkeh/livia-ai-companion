@@ -1,24 +1,21 @@
 import appMockup1 from "@/assets/app-mockup-1.jpg";
 import appMockup2 from "@/assets/app-mockup-2.jpg";
 import { Card } from "@/components/ui/card";
-import { MessageSquare, ClipboardList, Settings } from "lucide-react";
+import liviaLogo from "@/assets/livia-logo.png";
 
 const screens = [
   {
     image: appMockup1,
-    icon: MessageSquare,
     title: "Sprechen",
     description: "Natürliche Gespräche, die sich echt anfühlen",
   },
   {
     image: appMockup2,
-    icon: ClipboardList,
     title: "Notizen",
     description: "Erinnerungen und Termine im Blick behalten",
   },
   {
     image: appMockup1,
-    icon: Settings,
     title: "Einstellungen",
     description: "Individuell angepasst an deine Bedürfnisse",
   },
@@ -57,7 +54,7 @@ const AppShowcase = () => {
               <div className="p-6 space-y-3">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
-                    <screen.icon className="w-5 h-5 text-white" />
+                    <img src={liviaLogo} alt="Livia AI Logo" className="w-6 h-6" />
                   </div>
                   <h3 className="text-xl font-bold text-foreground">
                     {screen.title}
