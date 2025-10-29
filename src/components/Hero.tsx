@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircleHeart } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
+import liviaLogo from "@/assets/livia-logo.png";
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
           {/* Text Content */}
           <div className="text-center lg:text-left space-y-8 animate-fade-in">
             <div className="inline-flex items-center gap-2 bg-primary/10 px-6 py-3 rounded-full">
-              <MessageCircleHeart className="w-6 h-6 text-primary animate-pulse-soft" />
+              <img src={liviaLogo} alt="Livia AI Logo" className="w-6 h-6 animate-pulse-soft" />
               <span className="text-primary-dark font-semibold">Livia AI</span>
             </div>
             
