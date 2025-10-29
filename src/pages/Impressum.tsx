@@ -20,32 +20,32 @@ const Impressum = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4">Angaben gemäß § 5 TMG</h2>
             <p>
-              [Firmenname]<br />
-              [Straße und Hausnummer]<br />
-              [PLZ] [Ort]<br />
-              [Land]
+              Livia AI GmbH<br />
+              Musterstraße 12<br />
+              10115 Berlin<br />
+              Deutschland
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">Vertreten durch</h2>
-            <p>[Name des Geschäftsführers/Vertretungsberechtigten]</p>
+            <p>Anna Schneider (Geschäftsführerin)</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">Kontakt</h2>
             <p>
-              Telefon: [Telefonnummer]<br />
-              E-Mail: [E-Mail-Adresse]
+              Telefon: +49 (0)30 1234 5678<br />
+              E-Mail: hallo@livia-ai.de
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">Registereintrag</h2>
             <p>
-              Eintragung im Handelsregister<br />
-              Registergericht: [Registergericht]<br />
-              Registernummer: [Registernummer]
+              Eintragung im Handelsregister.<br />
+              Registergericht: Amtsgericht Berlin-Charlottenburg<br />
+              Registernummer: HRB 123456 B
             </p>
           </section>
 
@@ -53,15 +53,36 @@ const Impressum = () => {
             <h2 className="text-2xl font-semibold mb-4">Umsatzsteuer-ID</h2>
             <p>
               Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-              [USt-IdNr.]
+              DE123456789
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
             <p>
-              [Name]<br />
-              [Adresse]
+              Anna Schneider<br />
+              Musterstraße 12<br />
+              10115 Berlin
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">Streitschlichtung</h2>
+            <p>
+              Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
+              <a
+                href="https://ec.europa.eu/consumers/odr"
+                className="text-primary underline underline-offset-4"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://ec.europa.eu/consumers/odr
+              </a>
+              . Unsere E-Mail-Adresse finden Sie oben im Impressum.
+            </p>
+            <p>
+              Wir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer
+              Verbraucherschlichtungsstelle teilzunehmen.
             </p>
           </section>
         </div>

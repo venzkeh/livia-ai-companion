@@ -20,82 +20,105 @@ const AGB = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4">1. Geltungsbereich</h2>
             <p>
-              Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Verträge über die Nutzung der Livia AI 
-              Plattform zwischen [Firmenname] (nachfolgend "Anbieter") und den Nutzern (nachfolgend "Nutzer").
+              Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für sämtliche Verträge über die Nutzung der
+              Plattform "Livia AI" zwischen der Livia AI GmbH (nachfolgend "Anbieter") und den Nutzerinnen und
+              Nutzern der Plattform (nachfolgend "Nutzer"). Abweichende Bedingungen des Nutzers werden nicht anerkannt,
+              es sei denn, der Anbieter stimmt ihrer Geltung ausdrücklich schriftlich zu.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">2. Vertragsgegenstand</h2>
             <p>
-              Der Anbieter stellt dem Nutzer eine digitale Plattform zur Verfügung, die KI-gestützte Unterstützung 
-              und Kommunikationsmöglichkeiten für Seniorenbetreuung bietet.
+              Gegenstand des Vertrages ist die Bereitstellung einer digitalen Plattform, die KI-basierte
+              Kommunikations- und Unterstützungsangebote für Seniorinnen, Senioren sowie deren Angehörige und
+              Betreuungspersonen umfasst. Der konkrete Funktionsumfang ergibt sich aus der jeweils aktuellen
+              Leistungsbeschreibung auf unserer Website.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">3. Vertragsschluss</h2>
+            <h2 className="text-2xl font-semibold mb-4">3. Registrierung und Vertragsschluss</h2>
             <p>
-              Der Vertrag kommt durch die Registrierung des Nutzers und die Annahme dieser AGB zustande. Mit der 
-              Registrierung gibt der Nutzer ein verbindliches Angebot zum Abschluss eines Nutzungsvertrages ab.
+              Der Vertrag kommt zustande, sobald sich der Nutzer registriert und diesen AGB zustimmt. Die Anmeldung
+              darf nur von volljährigen und voll geschäftsfähigen Personen erfolgen oder mit Einwilligung der
+              gesetzlichen Vertreter. Der Anbieter behält sich vor, Registrierungen ohne Angabe von Gründen abzulehnen.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">4. Leistungsumfang</h2>
             <p>
-              Der Anbieter verpflichtet sich, die Plattform in dem vertraglich vereinbarten Umfang bereitzustellen. 
-              Der konkrete Leistungsumfang ergibt sich aus der jeweiligen Leistungsbeschreibung und dem gewählten 
-              Tarifmodell.
+              Der Anbieter stellt die Plattform im jeweils vereinbarten Leistungsumfang zur Verfügung. Hierzu können
+              unter anderem Kommunikationsfunktionen, Terminplanungen, Erinnerungen und Informationsangebote gehören.
+              Der Anbieter ist berechtigt, Leistungen anzupassen oder zu erweitern, soweit dies dem Nutzer zumutbar ist
+              und keine wesentlichen Vertragspflichten verletzt werden.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">5. Nutzungsrechte</h2>
             <p>
-              Der Nutzer erhält für die Vertragslaufzeit ein einfaches, nicht übertragbares Recht zur Nutzung der 
-              Plattform im vertraglich vereinbarten Umfang.
+              Der Nutzer erhält ein einfaches, nicht übertragbares Recht zur Nutzung der Plattform für die Dauer des
+              Vertrages. Eine Weitergabe der Zugangsdaten an Dritte oder eine Nutzung zu kommerziellen Zwecken ohne
+              vorherige Zustimmung des Anbieters ist unzulässig.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">6. Pflichten des Nutzers</h2>
+            <h2 className="text-2xl font-semibold mb-4">6. Pflichten der Nutzer</h2>
             <p>
-              Der Nutzer verpflichtet sich, die Plattform nur im Rahmen der gesetzlichen Bestimmungen und dieser 
-              AGB zu nutzen. Insbesondere ist es untersagt, Inhalte zu veröffentlichen, die gegen geltendes Recht 
-              verstoßen.
+              Nutzer verpflichten sich, bei der Registrierung wahrheitsgemäße Angaben zu machen und Änderungen ihrer
+              Daten unverzüglich zu aktualisieren. Es ist untersagt, Inhalte einzustellen, die Rechte Dritter
+              verletzen, gegen geltendes Recht verstoßen oder den Betrieb der Plattform beeinträchtigen. Missbräuchliche
+              Nutzung kann zur Sperrung oder Kündigung des Zugangs führen.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">7. Vergütung und Zahlung</h2>
+            <h2 className="text-2xl font-semibold mb-4">7. Vergütung und Zahlungsbedingungen</h2>
             <p>
-              Die Vergütung richtet sich nach dem gewählten Tarifmodell. Die Zahlung erfolgt im Voraus für den 
-              jeweiligen Abrechnungszeitraum.
+              Die Nutzung kostenpflichtiger Dienste erfolgt gegen Zahlung der jeweils ausgewiesenen Gebühren.
+              Rechnungsbeträge sind sofort fällig und können per Lastschrift, Kreditkarte oder anderen angebotenen
+              Zahlungsmitteln beglichen werden. Gerät der Nutzer mit der Zahlung in Verzug, ist der Anbieter berechtigt,
+              den Zugang bis zum vollständigen Ausgleich zu sperren.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">8. Haftung</h2>
             <p>
-              Der Anbieter haftet unbeschränkt für Vorsatz und grobe Fahrlässigkeit. Für leichte Fahrlässigkeit 
-              haftet der Anbieter nur bei Verletzung wesentlicher Vertragspflichten.
+              Der Anbieter haftet unbeschränkt bei Vorsatz und grober Fahrlässigkeit sowie bei Verletzung von Leben,
+              Körper oder Gesundheit. Bei leicht fahrlässigen Pflichtverletzungen haftet der Anbieter nur für Schäden,
+              die vorhersehbar und vertragstypisch sind. Eine Haftung für Datenverlust besteht nur, wenn der Nutzer
+              angemessene Datensicherungen durchgeführt hat.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">9. Laufzeit und Kündigung</h2>
             <p>
-              Der Vertrag wird auf unbestimmte Zeit geschlossen. Beide Parteien können den Vertrag mit einer Frist 
-              von [X] Wochen zum Monatsende kündigen.
+              Der Vertrag wird auf unbestimmte Zeit geschlossen. Nutzer können den Vertrag jederzeit mit einer Frist
+              von 14 Tagen zum Monatsende kündigen. Das Recht zur fristlosen Kündigung aus wichtigem Grund bleibt
+              unberührt. Kündigungen bedürfen der Textform (z. B. E-Mail).
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">10. Schlussbestimmungen</h2>
+            <h2 className="text-2xl font-semibold mb-4">10. Änderungen der AGB</h2>
             <p>
-              Es gilt das Recht der Bundesrepublik Deutschland. Sollten einzelne Bestimmungen dieser AGB unwirksam 
-              sein oder werden, berührt dies die Wirksamkeit der übrigen Bestimmungen nicht.
+              Der Anbieter behält sich vor, diese AGB mit Wirkung für die Zukunft anzupassen. Über Änderungen werden
+              Nutzer rechtzeitig informiert. Widerspricht der Nutzer den neuen Bedingungen nicht innerhalb von sechs
+              Wochen nach Mitteilung, gelten die Änderungen als akzeptiert.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">11. Schlussbestimmungen</h2>
+            <p>
+              Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts. Sollte eine
+              Bestimmung dieser AGB unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. An die
+              Stelle der unwirksamen Bestimmung tritt eine Regelung, die dem wirtschaftlichen Zweck am nächsten kommt.
             </p>
           </section>
         </div>
