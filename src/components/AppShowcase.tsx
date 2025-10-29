@@ -50,12 +50,16 @@ const AppShowcase = () => {
                 className="overflow-hidden bg-card border-2 border-border hover:border-primary transition-smooth hover:shadow-glow group animate-fade-in-up"
                 style={{ animationDelay: `${index * 0.15}s` }}
               >
-                <div className="aspect-[9/16] relative overflow-hidden bg-gradient-to-br from-primary/5 to-secondary/5">
+                <div
+                  className="aspect-[9/16] relative overflow-hidden bg-gradient-to-br from-primary/5 to-secondary/5 motion-safe:animate-float-soft motion-reduce:animate-none"
+                  style={{ animationDelay: `${index * 0.4}s` }}
+                >
                   <img
                     src={screen.image}
                     alt={screen.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-smooth duration-500"
                   />
+                  <span className="pointer-events-none absolute inset-0 bg-gradient-to-t from-primary/25 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 </div>
 
                 <div className="p-6 space-y-3">

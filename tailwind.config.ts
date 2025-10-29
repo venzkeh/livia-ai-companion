@@ -93,6 +93,10 @@ export default {
           "0%, 100%": { transform: "translateY(0px)" },
           "50%": { transform: "translateY(-20px)" }
         },
+        "float-soft": {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-12px)" }
+        },
         "pulse-soft": {
           "0%, 100%": { opacity: "1", transform: "scale(1)" },
           "50%": { opacity: "0.8", transform: "scale(1.05)" }
@@ -105,6 +109,7 @@ export default {
         "fade-in-up": "fade-in-up 0.8s ease-out",
         "scale-in": "scale-in 0.4s ease-out",
         "float": "float 3s ease-in-out infinite",
+        "float-soft": "float-soft 6s ease-in-out infinite",
         "pulse-soft": "pulse-soft 2s ease-in-out infinite",
       },
     },
