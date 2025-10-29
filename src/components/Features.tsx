@@ -1,11 +1,11 @@
-import { MessageCircle, BookOpen, Heart } from "lucide-react";
+import { Heart, BookOpen, Smile } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const features = [
   {
-    icon: MessageCircle,
-    title: "Natürliche Gespräche",
-    description: "Livia hört zu, erinnert, lacht und motiviert. Regelmäßige Gespräche trainieren das Gedächtnis und halten geistig fit.",
+    icon: Heart,
+    title: "Persönliche Begleitung",
+    description: "Livia hört zu, erinnert und motiviert. Passt sich an Stimmung und Bedürfnisse an – natürliche Gespräche, die das Gedächtnis trainieren.",
     gradient: "from-primary to-primary-light",
   },
   {
@@ -15,9 +15,9 @@ const features = [
     gradient: "from-primary-light to-secondary",
   },
   {
-    icon: Heart,
-    title: "Persönliche Begleitung",
-    description: "Passt sich an Stimmung, Tageszeit und Bedürfnisse an. Für mehr Wohlbefinden jeden Tag.",
+    icon: Smile,
+    title: "Seniorenfreundlichkeit",
+    description: "Große Schrift, einfache Bedienung und klare Sprache. Entwickelt speziell für ältere Menschen – ohne komplizierte Technik.",
     gradient: "from-secondary to-primary",
   },
 ];
