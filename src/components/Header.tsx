@@ -61,7 +61,7 @@ const Header = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-4 lg:py-6">
             <Link to="/" className="flex items-center gap-4" onClick={closeMenu}>
-              <img src={liviaLogo} alt="Livia AI Logo" className="h-16 w-auto" />
+              <img src={liviaLogo} alt="Livia AI Logo" className="h-20 w-auto" />
               <div className="flex flex-col">
                 <span className="text-lg font-bold text-foreground">Livia AI</span>
                 <span className="text-sm text-muted-foreground">Digitale Begleitung</span>

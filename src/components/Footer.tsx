@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <img src={liviaLogo} alt="Livia AI Logo" className="w-12 h-12" />
+              <img src={liviaLogo} alt="Livia AI Logo" className="w-16 h-16" />
               <span className="text-3xl font-bold tracking-tight">Livia AI</span>
             </div>
             <p className="text-accent/80 leading-relaxed">
