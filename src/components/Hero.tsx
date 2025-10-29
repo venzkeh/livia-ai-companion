@@ -4,7 +4,7 @@ import liviaLogo from "@/assets/livia-logo.png";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden gradient-warm">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden gradient-warm pt-32 lg:pt-40">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-10 w-20 h-20 bg-primary/10 rounded-full animate-float"></div>

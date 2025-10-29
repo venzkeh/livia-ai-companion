@@ -2,7 +2,7 @@ import missionImage from "@/assets/mission-image.jpg";
 
 const Mission = () => {
   return (
-    <section className="py-24 bg-background" id="mission">
+    <section className="py-24 bg-background scroll-mt-32" id="mission">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Image */}
