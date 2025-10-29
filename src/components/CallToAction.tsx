@@ -1,5 +1,6 @@
+import { Mail, PlayCircle } from "lucide-react";
+
 import { Button } from "@/components/ui/button";
-import liviaLogo from "@/assets/livia-logo.png";
 
 const CallToAction = () => {
   return (
@@ -30,7 +31,7 @@ const CallToAction = () => {
               size="lg"
               className="text-lg px-10 py-7 bg-accent text-primary-dark hover:bg-accent/90 shadow-glow transition-smooth border-2 border-accent"
             >
-              <img src={liviaLogo} alt="Livia AI Logo" className="w-6 h-6 mr-2" />
+              <Mail className="w-6 h-6 mr-2" />
               Kontakt aufnehmen
             </Button>
 
@@ -39,7 +40,7 @@ const CallToAction = () => {
               variant="outline"
               className="text-lg px-10 py-7 bg-transparent text-accent border-2 border-accent hover:bg-accent hover:text-primary-dark transition-smooth"
             >
-              <img src={liviaLogo} alt="Livia AI Logo" className="w-6 h-6 mr-2" />
+              <PlayCircle className="w-6 h-6 mr-2" />
               Demo anfordern
             </Button>
           </div>
