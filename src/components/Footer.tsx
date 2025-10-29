@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { MessageCircleHeart, Mail, Phone, Facebook, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
@@ -63,9 +64,15 @@ const Footer = () => {
         <div className="border-t border-accent/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-accent/60 text-sm">
           <p>© 2025 Livia AI. Alle Rechte vorbehalten.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-accent transition-smooth">Impressum</a>
-            <a href="#" className="hover:text-accent transition-smooth">Datenschutz</a>
-            <a href="#" className="hover:text-accent transition-smooth">AGB</a>
+            <Link to="/impressum" className="hover:text-accent transition-smooth">
+              Impressum
+            </Link>
+            <Link to="/datenschutz" className="hover:text-accent transition-smooth">
+              Datenschutz
+            </Link>
+            <Link to="/agb" className="hover:text-accent transition-smooth">
+              AGB
+            </Link>
           </div>
         </div>
       </div>

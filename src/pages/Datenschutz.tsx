@@ -18,58 +18,93 @@ const Datenschutz = () => {
         
         <div className="prose prose-slate max-w-none space-y-6">
           <section>
-            <h2 className="text-2xl font-semibold mb-4">1. Datenschutz auf einen Blick</h2>
-            <h3 className="text-xl font-semibold mb-3">Allgemeine Hinweise</h3>
+            <h2 className="text-2xl font-semibold mb-4">1. Verantwortlicher</h2>
             <p>
-              Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten 
-              passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie 
-              persönlich identifiziert werden können.
+              Verantwortlich für die Datenverarbeitung auf dieser Website ist die Livia AI GmbH, Musterstraße 12,
+              10115 Berlin. Weitere Kontaktdaten entnehmen Sie bitte unserem Impressum.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">2. Datenerfassung auf dieser Website</h2>
-            <h3 className="text-xl font-semibold mb-3">Wer ist verantwortlich für die Datenerfassung auf dieser Website?</h3>
+            <h2 className="text-2xl font-semibold mb-4">2. Erhebung und Speicherung personenbezogener Daten</h2>
             <p>
-              Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten 
-              können Sie dem Impressum dieser Website entnehmen.
+              Wir erheben personenbezogene Daten nur, wenn Sie uns diese im Rahmen einer Anfrage oder Registrierung
+              freiwillig mitteilen. Dazu zählen insbesondere Name, E-Mail-Adresse, Telefonnummer und Angaben zur
+              gewünschten Betreuungssituation.
+            </p>
+            <p>
+              Beim Besuch unserer Website werden automatisch technische Daten (IP-Adresse, Browsertyp, Datum und
+              Uhrzeit des Zugriffs) erfasst. Diese Daten sind technisch erforderlich, um Ihnen die Website korrekt
+              anzuzeigen und die Stabilität und Sicherheit zu gewährleisten.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">3. Allgemeine Hinweise und Pflichtinformationen</h2>
-            <h3 className="text-xl font-semibold mb-3">Datenschutz</h3>
+            <h2 className="text-2xl font-semibold mb-4">3. Zweck der Datenverarbeitung</h2>
             <p>
-              Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre 
-              personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie 
-              dieser Datenschutzerklärung.
+              Die Verarbeitung Ihrer personenbezogenen Daten erfolgt zur Bereitstellung unseres digitalen
+              Begleitservices, zur Beantwortung Ihrer Anfragen, zur Abwicklung vertraglicher Beziehungen sowie zur
+              Verbesserung unseres Angebots und zur Gewährleistung eines sicheren Betriebs.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">4. Datenerfassung auf dieser Website</h2>
-            <h3 className="text-xl font-semibold mb-3">Cookies</h3>
+            <h2 className="text-2xl font-semibold mb-4">4. Rechtsgrundlagen</h2>
             <p>
-              Die Internetseiten verwenden teilweise so genannte Cookies. Cookies richten auf Ihrem Rechner keinen 
-              Schaden an und enthalten keine Viren. Cookies dienen dazu, unser Angebot nutzerfreundlicher, effektiver 
-              und sicherer zu machen.
+              Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung) sowie Art. 6
+              Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Analyse, Optimierung und dem wirtschaftlichen Betrieb
+              unseres Online-Angebots). Sofern Sie uns eine Einwilligung erteilt haben, stützt sich die Verarbeitung
+              auf Art. 6 Abs. 1 lit. a DSGVO.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">5. Analyse-Tools und Tools von Drittanbietern</h2>
+            <h2 className="text-2xl font-semibold mb-4">5. Einsatz von Cookies und Analyse-Tools</h2>
             <p>
-              Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor 
-              allem mit sogenannten Analyseprogrammen.
+              Wir verwenden Cookies, um die Nutzung unserer Website zu analysieren und unser Angebot zu verbessern.
+              Sie können das Speichern von Cookies durch eine entsprechende Einstellung Ihrer Browser-Software
+              verhindern. Bereits gespeicherte Cookies können jederzeit gelöscht werden.
+            </p>
+            <p>
+              Sofern wir Analyse-Tools einsetzen (z. B. zur Reichweitenmessung), informieren wir Sie gesondert und
+              holen, sofern erforderlich, Ihre Einwilligung ein.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">6. Ihre Rechte</h2>
+            <h2 className="text-2xl font-semibold mb-4">6. Weitergabe von Daten</h2>
             <p>
-              Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen 
-              Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf 
-              Berichtigung oder Löschung dieser Daten.
+              Eine Übermittlung Ihrer personenbezogenen Daten an Dritte erfolgt nur, wenn dies gesetzlich erlaubt
+              ist, Sie eingewilligt haben oder dies zur Vertragserfüllung erforderlich ist. Eine Übermittlung in
+              Drittstaaten findet nur statt, wenn dort ein angemessenes Datenschutzniveau gewährleistet ist.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">7. Speicherdauer</h2>
+            <p>
+              Wir speichern personenbezogene Daten nur so lange, wie dies für die jeweiligen Zwecke erforderlich ist
+              oder gesetzliche Aufbewahrungsfristen bestehen. Entfallen die Zwecke bzw. laufen die Fristen ab,
+              löschen wir die Daten gemäß den gesetzlichen Vorschriften.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">8. Ihre Rechte</h2>
+            <p>
+              Sie haben das Recht auf Auskunft über Ihre bei uns gespeicherten Daten, auf Berichtigung, Löschung oder
+              Einschränkung der Verarbeitung sowie das Recht auf Datenübertragbarkeit. Darüber hinaus können Sie
+              erteilte Einwilligungen jederzeit widerrufen und der Verarbeitung widersprechen. Hierzu genügt eine
+              formlose Mitteilung an uns, zum Beispiel per E-Mail an hallo@livia-ai.de.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">9. Beschwerderecht</h2>
+            <p>
+              Ihnen steht das Recht zu, sich bei einer Aufsichtsbehörde zu beschweren, insbesondere in dem
+              Mitgliedstaat Ihres Aufenthaltsorts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes, wenn
+              Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt.
             </p>
           </section>
         </div>
