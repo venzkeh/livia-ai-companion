@@ -1,28 +1,31 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const Datenschutz = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <div className="container mx-auto px-4 py-12 max-w-4xl">
-        <Link 
-          to="/" 
-          className="inline-flex items-center gap-2 text-primary hover:text-primary/80 mb-8 transition-colors"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          Zurück zur Startseite
-        </Link>
-        
-        <h1 className="text-4xl font-bold mb-8">Datenschutzerklärung</h1>
-        
-        <div className="prose prose-slate max-w-none space-y-6">
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">1. Verantwortlicher</h2>
-            <p>
-              Verantwortlich für die Datenverarbeitung auf dieser Website ist die Livia AI GmbH, Musterstraße 12,
-              10115 Berlin. Weitere Kontaktdaten entnehmen Sie bitte unserem Impressum.
-            </p>
+    <div className="min-h-screen bg-background flex flex-col">
+      <Header />
+      <main className="flex-1 pt-32 pb-16">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <Link
+            to="/"
+            className="inline-flex items-center gap-2 text-primary hover:text-primary/80 mb-8 transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Zurück zur Startseite
+          </Link>
+
+          <h1 className="text-4xl font-bold mb-8">Datenschutzerklärung</h1>
+
+          <div className="prose prose-slate max-w-none space-y-6">
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">1. Verantwortlicher</h2>
+              <p>
+                Verantwortlich für die Datenverarbeitung auf dieser Website ist die Livia AI GmbH, Musterstraße 12,
+                10115 Berlin. Weitere Kontaktdaten entnehmen Sie bitte unserem Impressum.
+              </p>
           </section>
 
           <section>
@@ -107,8 +110,9 @@ const Datenschutz = () => {
               Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt.
             </p>
           </section>
+          </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </div>
   );
