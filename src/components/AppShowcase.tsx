@@ -26,7 +26,7 @@ const screens = [
 
 const AppShowcase = () => {
   return (
-    <section className="py-24 gradient-warm" id="app">
+    <section className="py-24 gradient-warm scroll-mt-32" id="app">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in-up">

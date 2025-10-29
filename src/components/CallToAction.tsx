@@ -3,7 +3,7 @@ import { Mail, Phone } from "lucide-react";
 
 const CallToAction = () => {
   return (
-    <section className="py-24 relative overflow-hidden" id="kontakt">
+    <section className="py-24 relative overflow-hidden scroll-mt-32" id="kontakt">
       {/* Background with gradient */}
       <div className="absolute inset-0 bg-primary-dark">
         <div className="absolute inset-0 bg-gradient-to-br from-primary to-primary-dark opacity-90"></div>

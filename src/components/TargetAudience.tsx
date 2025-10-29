@@ -24,7 +24,7 @@ const audiences = [
 
 const TargetAudience = () => {
   return (
-    <section className="py-24 bg-background" id="zielgruppe">
+    <section className="py-24 bg-background scroll-mt-32" id="zielgruppe">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in-up">
