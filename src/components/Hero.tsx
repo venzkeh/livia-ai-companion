@@ -32,7 +32,7 @@ const Hero = () => {
                 Mehr erfahren
               </Button>
               <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth">
-                Try the App
+                App testen
               </Button>
             </div>
           </div>
